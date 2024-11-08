@@ -1,0 +1,49 @@
+responses:
+  utter_iamabot:
+    - text: "Tôi là một chatbot do Rasa phát triển, sẵn sàng hỗ trợ bạn!"
+    
+  utter_ask_course_duration:
+    - text: "Khóa học kéo dài trong 12 tuần, giúp bạn nắm vững kiến thức trong thời gian hợp lý."
+
+  utter_ask_trial:
+    - text: "Chúng tôi hiện có chương trình học thử cho khóa học này. Bạn có thể đăng ký học thử qua trang thông tin khóa học."
+
+  utter_ask_prerequisites:
+    - text: "Khóa học này không yêu cầu kiến thức đầu vào. Tuy nhiên, có kiến thức nền về sẽ giúp bạn học dễ dàng hơn."
+
+  utter_ask_certificate:
+    - text: "Sau khi hoàn thành khóa học, bạn sẽ nhận được chứng chỉ điện tử công nhận kiến thức đã học."
+
+  utter_ask_course_content:
+    - text: "Khóa học bao gồm các phần lý thuyết và thực hành, tập trung vào các kỹ năng. Để biết thêm chi tiết, vui lòng xem mô tả khóa học."
+
+  utter_ask_access_period:
+    - text: "Sau khi mua, bạn sẽ có quyền truy cập khóa học trong vòng 4 tháng. Bạn có thể học lại bất kỳ lúc nào trong thời gian này."
+
+  utter_ask_refund_policy:
+    - text: "Nếu bạn không hài lòng với khóa học, chúng tôi có chính sách hoàn tiền trong vòng 7 ngày đầu tiên sau khi đăng ký."
+
+  utter_ask_course_fee:
+    - text: "Học phí của khóa học là 999.000VND. Chúng tôi có các hình thức thanh toán linh hoạt để hỗ trợ bạn."
+
+  utter_ask_discount:
+    - text: "Hiện tại chúng tôi có chương trình ưu đãi 20% cho tất cả các khóa học. Bạn hãy đăng ký sớm để được giảm giá!"
+
+  utter_ask_payment_method:
+    - text: "Bạn có thể thanh toán qua chuyển khoản ngân hàng, ví điện tử, hoặc thẻ tín dụng. Hãy liên hệ với chúng tôi nếu cần hỗ trợ thêm."
+
+  utter_ask_support_group:
+    - text: "Chúng tôi có nhóm học viên để hỗ trợ lẫn nhau trong quá trình học. Bạn sẽ được tham gia sau khi đăng ký khóa học."
+
+  utter_ask_technical_issues:
+    - text: "Nếu bạn gặp vấn đề kỹ thuật, hãy liên hệ với bộ phận hỗ trợ kỹ thuật qua email hoặc hotline để được trợ giúp."
+
+  utter_ask_account_access:
+    - text: "Để đăng nhập, hãy sử dụng email và mật khẩu bạn đã đăng ký. Nếu quên mật khẩu, bạn có thể nhấn vào 'Quên mật khẩu' để khôi phục."
+
+  utter_ask_device_support:
+    - text: "Bạn có thể học trên mọi thiết bị, bao gồm máy tính, điện thoại và máy tính bảng. Chỉ cần có kết nối internet!"
+  utter_goodbye:
+    - text: "Cảm ơn bạn đã ghé thăm! Hẹn gặp lại bạn trong lần tới."
+  utter_ask_course_updates:
+    - text: "Đây là bản cập nhật mới nhất của khóa học."

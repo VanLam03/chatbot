@@ -1,0 +1,93 @@
+version: "3.0"
+
+nlu:
+  - intent: ask_course_duration
+    examples: |
+      - Khóa học này kéo dài bao lâu?
+      - Thời gian học của khóa này là bao nhiêu?
+      - Tôi sẽ học trong bao nhiêu tuần?
+      - Khóa học kéo dài trong thời gian bao nhiêu?
+
+  - intent: ask_trial
+    examples: |
+      - Tôi có thể học thử trước khi mua khóa học không?
+      - Khóa học có chương trình học thử không?
+      - Cho tôi học thử trước khi đăng ký có được không?
+
+  - intent: ask_prerequisites
+    examples: |
+      - Khóa học này có yêu cầu trình độ đầu vào không?
+      - Tôi cần biết gì trước khi tham gia khóa học này?
+      - Có cần kiến thức nền trước khi học khóa này không?
+
+  - intent: ask_certificate
+    examples: |
+      - Khóa học này có cấp chứng chỉ không?
+      - Tôi có nhận được chứng chỉ sau khi hoàn thành khóa học không?
+      - Có bằng cấp sau khóa học này không?
+
+  - intent: ask_course_content
+    examples: |
+      - Khóa học bao gồm những gì?
+      - Nội dung khóa học là gì?
+      - Học khóa này có các phần nào?
+
+  - intent: ask_access_period
+    examples: |
+      - Tôi có thể truy cập khóa học trong bao lâu?
+      - Thời gian truy cập khóa học là bao nhiêu?
+      - Sau khi mua, tôi có quyền truy cập khóa học bao lâu?
+
+  - intent: ask_refund_policy
+    examples: |
+      - Nếu tôi không hài lòng, có thể hoàn tiền không?
+      - Chính sách hoàn tiền của khóa học là gì?
+      - Khóa học có hỗ trợ hoàn lại tiền không?
+
+  - intent: ask_course_fee
+    examples: |
+      - Học phí của khóa học là bao nhiêu?
+      - Khóa học này có giá bao nhiêu?
+      - Tôi cần phải trả bao nhiêu để tham gia khóa học?
+
+  - intent: ask_discount
+    examples: |
+      - Có chương trình giảm giá nào không?
+      - Hiện tại có ưu đãi nào cho khóa học không?
+      - Tôi có thể được giảm giá không?
+
+  - intent: ask_payment_method
+    examples: |
+      - Làm thế nào để thanh toán học phí?
+      - Có những hình thức thanh toán nào?
+      - Tôi có thể thanh toán qua đâu?
+
+  - intent: ask_support_group
+    examples: |
+      - Có nhóm hỗ trợ học viên không?
+      - Tôi có thể tham gia diễn đàn nào để hỗ trợ học tập?
+      - Có cộng đồng hỗ trợ học viên không?
+
+  - intent: ask_technical_issues
+    examples: |
+      - Nếu gặp lỗi kỹ thuật, tôi cần liên hệ ai?
+      - Có ai hỗ trợ tôi khi gặp lỗi trong quá trình học không?
+      - Tôi cần giúp đỡ với các vấn đề kỹ thuật, liên hệ ai?
+
+  - intent: ask_account_access
+    examples: |
+      - Làm sao để đăng nhập tài khoản học viên?
+      - Tôi quên mật khẩu, làm sao khôi phục?
+      - Làm sao để vào lại tài khoản?
+
+  - intent: ask_device_support
+    examples: |
+      - Tôi có thể học trên các thiết bị khác nhau không?
+      - Có thể học trên điện thoại không?
+      - Thiết bị nào hỗ trợ khóa học này?
+
+  - intent: ask_course_updates
+    examples: |
+      - Nếu khóa học cập nhật nội dung mới, tôi có được học miễn phí không?
+      - Tôi có cần trả phí cho nội dung mới không?
+      - Khóa học có tự động cập nhật nội dung không?

@@ -1,0 +1,77 @@
+version: "3.0"
+
+stories:
+  - story: hỏi về thời gian khóa học
+    steps:
+      - intent: ask_course_duration
+      - action: utter_ask_course_duration
+
+  - story: hỏi về khóa học thử
+    steps:
+      - intent: ask_trial
+      - action: utter_ask_trial
+
+  - story: hỏi về yêu cầu đầu vào
+    steps:
+      - intent: ask_prerequisites
+      - action: utter_ask_prerequisites
+
+  - story: hỏi về chứng chỉ
+    steps:
+      - intent: ask_certificate
+      - action: utter_ask_certificate
+
+  - story: hỏi về nội dung khóa học
+    steps:
+      - intent: ask_course_content
+      - action: utter_ask_course_content
+
+  - story: hỏi về thời gian truy cập
+    steps:
+      - intent: ask_access_period
+      - action: utter_ask_access_period
+
+  - story: hỏi về hoàn tiền
+    steps:
+      - intent: ask_refund_policy
+      - action: utter_ask_refund_policy
+
+  - story: hỏi về học phí
+    steps:
+      - intent: ask_course_fee
+      - action: utter_ask_course_fee
+
+  - story: hỏi về giảm giá
+    steps:
+      - intent: ask_discount
+      - action: utter_ask_discount
+
+  - story: hỏi về phương thức thanh toán
+    steps:
+      - intent: ask_payment_method
+      - action: utter_ask_payment_method
+
+  - story: hỏi về nhóm hỗ trợ học viên
+    steps:
+      - intent: ask_support_group
+      - action: utter_ask_support_group
+
+  - story: hỏi về lỗi kỹ thuật
+    steps:
+      - intent: ask_technical_issues
+      - action: utter_ask_technical_issues
+
+  - story: hỏi về tài khoản
+    steps:
+      - intent: ask_account_access
+      - action: utter_ask_account_access
+
+  - story: hỏi về thiết bị hỗ trợ
+    steps:
+      - intent: ask_device_support
+      - action: utter_ask_device_support
+
+  - story: hỏi về cập nhật khóa học
+    steps:
+      - intent: ask_course_updates
+      - action: utter_ask_course_updates
